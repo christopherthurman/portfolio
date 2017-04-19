@@ -1,0 +1,215 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <title>Chris Thurman ePortfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <style>
+            body {
+                font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            h1 {
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 40px;
+            }
+            h2 {
+                color: BLACK;
+                text-align: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            h6 {
+                font-size: medium;
+                line-height: 30px;
+            }
+            #nav-head {
+                text-color: black;
+            }
+            #about {
+                border-radius: 10px;
+                padding: 20px;
+                color: black;
+                background-color: rgb(230,230,230);
+            }
+            #about-text {
+                padding-top: 30px;
+                padding-left: 50px;
+            }
+            #contactinfo {
+                padding-left: 50px;
+            }
+            #contactrow {
+                border-radius: 10px;
+                padding: 20px;
+                color: black;
+                background-color: rgb(230,230,230);
+            }
+            #contacttext {
+                line-height: 30px;
+                font-size: medium;
+            }
+            #chrisnashley {
+                image-align: center;
+                border-radius: 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#home">Chris Thurman</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Links<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.facebook.com/chris.a.thurman" target="_blank">Facebook</a></li>
+                                <li><a href="https://www.linkedin.com/in/chrisathurman/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://github.com/christopherthurman" target="_blank">GitHub</a></li>
+                                <li><a href="https://www.freecodecamp.com/christopherthurman" target="_blank">FreeCodeCamp</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid" id="home">
+            <h2 class="text-center" style="padding-top: 70px"></h2>
+            <div class="row" id="about">
+                <div class="col-sm-8" id="about-text">
+                    <h6><b>Junior Front-End Developer</b> with experience in 
+                        HTML, JavaScript, CSS, Bootstrap, Java, PHP and MySQL.  
+                        I strive to develop UI/UX that exceeds client expectations, 
+                        and lives up to my own standards of design and functionality.</h6>
+                    <h6>In addition to my passion for coding and learning new 
+                        technologies and languages, I am also passionate about 
+                        music, coffee, and spending time with my amazing wife and 
+                        three beautiful children!</h6>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <br>
+                    <br>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1138513/profile/profile-512_2.jpg"
+                         class="image-responsive" alt="chrisnashley" id="chrisnashley" width="230" height="230">
+                </div>
+                <div class="col-sm-12" style="text-align: center">
+                    <hr>
+                    <a href="https://www.facebook.com/chris.a.thurman" class="btn 
+                       btn-primary" role="button" target="_blank">Facebook</a>
+                    <a href="https://www.linkedin.com/in/chrisathurman/" class="btn 
+                       btn-primary" role="button" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/christopherthurman" class="btn 
+                       btn-primary" role="button" target="_blank">GitHub</a>
+                    <a href="https://www.freecodecamp.com/christopherthurman" class="btn 
+                       btn-primary" role="button" target="_blank">FreeCodeCamp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="portfolio">
+            <br>
+            <h2 class="text-center">PORTFOLIO</h2>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <a href="http://ec2-54-244-193-47.us-west-2.compute.amazonaws.com/Utah_Map/index.html" target="_blank">
+                                <img src="http://i1131.photobucket.com/albums/m543/c_a_thurman/Screen%20Shot%202017-03-30%20at%207.19.14%20PM_zpssp88u7zc.png" alt="mapOfUtah" style="width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center"><b>Interactive 
+                                            Map of Utah</b></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <a href="http://ec2-54-244-193-47.us-west-2.compute.amazonaws.com/MyPizzaPlace/index.html" target="_blank">
+                                <img src="http://i1131.photobucket.com/albums/m543/c_a_thurman/Screen%20Shot%202017-03-30%20at%207.33.41%20PM_zpse7gqurtm.png" alt="pizzaOrderForm" style="width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center"><b>Order Pizza 
+                                            Online</b></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <a href="http://ec2-54-244-193-47.us-west-2.compute.amazonaws.com/GuessingGame/index.html" target="_blank">
+                                <img src="http://i1131.photobucket.com/albums/m543/c_a_thurman/Screen%20Shot%202017-03-30%20at%207.16.16%20PM_zpsyuilbjco.png" alt="guessingGame" style="width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center"><b>Guessing Game</b></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <a href="http://ec2-54-244-193-47.us-west-2.compute.amazonaws.com/TicTacToe/index.html" target="_blank">
+                                <img src="http://i1131.photobucket.com/albums/m543/c_a_thurman/Screen%20Shot%202017-03-30%20at%207.18.53%20PM_zpsjrabum0f.png" alt="TicTacToe" style="width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center"><b>Tic Tac Toe</b></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="contact">
+            <h2 class="text-center">CONTACT ME</h2>
+            <div class="row" id="contactrow">
+                <div class="col-sm-12 text-center" style="line-height: 15px" id="contacttext">
+                    <p><i>If you have any questions for me, would like a copy 
+                            of my resume, or just want to chat...</i></p> 
+                    <p><i>You can find me on social media, or feel free to 
+                            contact me directly!</i></p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3" style="line-height: 15px" id="contactinfo">
+                    <h6><a href="https://www.google.com/maps/place/Eagle+Mountain,+UT/@40.3265531,-112.2463537,10.12z/data=!4m5!3m4!1s0x874d796f771b5103:0xbd43fbe76b5b8553!8m2!3d40.3141169!4d-112.006882" target="_blank"><span class="glyphicon glyphicon-globe"></span></a>  Eagle Mountain, UT</h6>
+                </div>
+                <div class="col-sm-4" style="line-height: 15px" id="contactinfo">
+                    <h6><a href="mailto:chris.a.thurman@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>  chris.a.thurman@gmail.com</h6>
+                </div>
+                <div class="col-sm-3" style="line-height: 15px" id="contactinfo">
+                    <h6><a href="tel:+8016334233"><span class="glyphicon glyphicon-phone"></span></a>  (801) 633-4233</h6>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="footer">
+            <br>
+            <br>
+            <p class="text-center" style="color:rgb(180,180,180)"><i>Site 
+                    created by Chris Thurman</i></p>
+        </div>
+    </body>
+</html>
